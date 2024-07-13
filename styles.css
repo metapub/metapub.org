@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1e3d61; /* Darker blue for the navbar */
+    padding: 20px 0;
+    border-bottom: 1px solid #162945; /* Slightly darker shade for border */
+}
+
+.nav-logo {
+    max-width: 50px; /* Reduced size for the navbar logo */
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px; /* Increased margin for more whitespace */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text */
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase; /* Changed to all caps */
+}
+
+nav ul li a:hover {
+    color: #f48e49; /* Orange for hover effect */
+}
+
+.hero {
+    background-color: #ffffff; /* White background */
+    color: #2a5183; /* Blue text color */
+    padding: 40px 20px;
+    text-align: center; /* Centered text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.hero-text-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.hero-text p {
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.get-started {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f48e49; /* Orange from the logo */
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.get-started:hover {
+    background-color: #e57d3b; /* Slightly darker orange on hover */
+}
+
+.main-container {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.features {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.features-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    color: #2a5183; /* Blue text color */
+    line-height: 1.6;
+}
+
+.features h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #2a5183; /* Blue from the logo */
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.feature-icon {
+    width: 50px; /* Adjust this size as needed */
+    /* height: 50px; /* Adjust this size as needed */
+    margin-right: 20px;
+}
+
+.feature-text {
+    flex: 1;
+}
+
+.feature h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    text-indent: 0;
+    color: #2a5183; /* Blue from the logo */
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #e6e6e6; /* Light grey background */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.download-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #6a91c4; /* Lighter blue shade */
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.download-button:hover {
+    background-color: #5977a4; /* Slightly darker light blue on hover */
+}
+
+.sidebar-content h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #1e3d61;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #162945;
+    color: #ffffff;
+}
+
