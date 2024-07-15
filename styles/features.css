@@ -1,0 +1,32 @@
+.features-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    color: #2a5183; /* Blue text color */
+    line-height: 1.6;
+}
+
+.feature {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.feature-icon {
+    width: 50px; /* Adjust this size as needed */
+    margin-right: 20px;
+}
+
+.feature-text {
+    flex: 1;
+    margin-top: 0px;
+}
+
+.feature h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    text-indent: 0;
+    color: #2a5183; /* Blue from the logo */
+}
+

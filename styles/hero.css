@@ -1,0 +1,56 @@
+.hero {
+    background-color: #ffffff; /* White background */
+    color: #2a5183; /* Blue text color */
+    padding: 40px 20px;
+    text-align: center; /* Centered text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.hero-text-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+.hero-text p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.get-started {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f48e49; /* Orange from the logo */
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.get-started:hover {
+    background-color: #e57d3b; /* Slightly darker orange on hover */
+}
+

@@ -1,0 +1,42 @@
+.citations {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #2a5183; /* Blue text color */
+    line-height: 1.6;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.citations h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.citations .citation {
+    margin-bottom: 20px; /* Reduce the bottom margin */
+}
+
+.citations .citation p {
+    margin: 5px 0;
+}
+
+.citations .citation p strong {
+    font-size: 1.2em; /* Adjust font size for bold titles */
+}
+
+.citations .citation a {
+    color: #2a5183; /* Blue from the logo */
+    text-decoration: none;
+}
+
+.citations .citation a:hover {
+    text-decoration: underline;
+}
+
+.citations hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+

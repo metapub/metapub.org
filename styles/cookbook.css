@@ -1,0 +1,35 @@
+.cookbook {
+    padding: 20px;
+    background-color: #ffffff;
+    color: #2a5183; /* Blue text color */
+    line-height: 1.6;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cookbook h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cookbook .recipe {
+    margin-bottom: 40px;
+}
+
+.cookbook .recipe h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #2a5183; /* Blue from the logo */
+}
+
+.cookbook .recipe pre {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.cookbook .recipe code {
+    font-family: monospace;
+}
+

@@ -1,0 +1,39 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e3d61; /* Darker blue for the navbar */
+    padding: 10px 20px;
+}
+
+.nav-logo {
+    max-width: 50px; /* Reduced size for the navbar logo */
+    vertical-align: middle;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 30px; /* Increased margin for more whitespace */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff; /* White text */
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase; /* Changed to all caps */
+}
+
+.nav-links a:hover {
+    color: #f48e49; /* Orange for hover effect */
+}
+

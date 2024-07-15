@@ -1,0 +1,27 @@
+.sidebar {
+    flex: 1;
+    background-color: #e6e6e6; /* Light grey background */
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.download-button {
+    display: block;
+    padding: 15px 20px; /* Increased padding for taller button */
+    background-color: #6a91c4; /* Lighter blue shade */
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.download-button:hover {
+    background-color: #5977a4; /* Slightly darker light blue on hover */
+}
+
+.sidebar-content h3 {
+    margin-top: 0;
+}
+
