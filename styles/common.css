@@ -11,9 +11,9 @@ body {
 }
 
 header {
-    background-color: #1e3d61;
+    background-color: #5f738a; /* Lighter, silver-y blue for the header */
     padding: 20px 0;
-    border-bottom: 1px solid #162945;
+    border-bottom: 1px solid #4a5e76; /* Slightly darker shade for border */
 }
 
 .main-container {

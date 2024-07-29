@@ -1,5 +1,6 @@
 <article class="recipe">
     <h2>Download Article PDFs</h2>
+<p>If you've generated a long list of research you need to read and don't want to take the time to click an average of 2.5 times per article to download its fulltext, FindIt is for you.  This recipe demonstrates how simple it is to track down every Open Access PDF you might want from your wish list in a small script.</p> 
     <pre>
 <code>
 from metapub import PubMedFetcher

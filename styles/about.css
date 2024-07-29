@@ -1,0 +1,29 @@
+.about-metapub {
+    background-color: #f4f4f4; /* Light grey background */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-creator {
+    background-color: #ffffff; /* White background */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-metapub .container, .about-creator .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-metapub h2, .about-creator h2 {
+    color: #2a5183; /* Blue text color */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-metapub p, .about-creator p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333333; /* Dark grey text */
+}
+

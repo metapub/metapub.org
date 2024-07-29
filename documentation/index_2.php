@@ -31,25 +31,27 @@ $Parsedown = new Parsedown();
     <title>Documentation Index</title>
     <link rel="stylesheet" href="../styles/common.css">
     <link rel="stylesheet" href="../styles/navbar.css">
-    <link rel="stylesheet" href="../styles/documentation.css">
+    <link rel="stylesheet" href="../styles/hero.css">
+    <link rel="stylesheet" href="../styles/features.css">
+    <link rel="stylesheet" href="../styles/sidebar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <?php include('../partials/navbar.html'); ?>
     
     <div class="container">
-        <div class="sidebar">
-            <h2>Contents</h2>
-            <ul>
-                <?php
-                // Generate table of contents
-                foreach ($markdownFiles as $file) {
-                    $filename = pathinfo($file, PATHINFO_FILENAME);
-                    echo '<li><a href="?page=' . $filename . '">' . $filename . '</a></li>';
-                }
-                ?>
-            </ul>
-        </div>
-        <div class="content">
+        <h1>Documentation</h1>
+        <ul>
+            <?php
+            // Generate table of contents
+            foreach ($markdownFiles as $file) {
+                $filename = pathinfo($file, PATHINFO_FILENAME);
+                echo '<li><a href="?page=' . $filename . '">' . $filename . '</a></li>';
+            }
+            ?>
+        </ul>
+        <div>
             <?php
             // Display selected markdown file
             if (isset($_GET['page'])) {

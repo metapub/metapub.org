@@ -1,0 +1,44 @@
+/* documentation.css */
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-right: 1px solid #ddd;
+    height: 100vh; /* Full height */
+    overflow-y: auto; /* Enable vertical scroll */
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+}
+

@@ -4,7 +4,6 @@
     <pre>
 <code>
 import requests
-from bs4 import BeautifulSoup
 from metapub import PubMedFetcher
 from metapub import FindIt
 

@@ -2,12 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1e3d61; /* Darker blue for the navbar */
+    background-color: #5f738a; /* Lighter, silver-y blue for the navbar */
     padding: 10px 20px;
 }
 
 .nav-logo {
-    max-width: 50px; /* Reduced size for the navbar logo */
+    max-width: 50px;
     vertical-align: middle;
 }
 
@@ -22,18 +22,18 @@
 
 .nav-links li {
     display: inline;
-    margin-right: 30px; /* Increased margin for more whitespace */
+    margin-right: 30px;
 }
 
 .nav-links a {
     text-decoration: none;
-    color: #ffffff; /* White text */
+    color: #ffffff;
     font-size: 1.2em;
     font-weight: bold;
-    text-transform: uppercase; /* Changed to all caps */
+    text-transform: uppercase;
 }
 
 .nav-links a:hover {
-    color: #f48e49; /* Orange for hover effect */
+    color: #f48e49;
 }
 
